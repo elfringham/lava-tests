@@ -9,3 +9,4 @@ metadata:
 run:
     steps:
         - "uname -a"
+        - "echo $GITLAB_PRIVATE"
